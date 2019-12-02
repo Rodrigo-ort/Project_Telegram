@@ -17,4 +17,6 @@ def escolhe_sistema():
 				Telegram_Bot.rodar('noticias.json', 'ultima_noticia_bot.tmp')
 
 if(__name__ == "__main__"):
-		escolhe_sistema()
+		#escolhe_sistema()
+		minerador_IFB.rodar('noticias.json','ultima_noticia_minerador.tmp')
+		Telegram_Bot.rodar('noticias.json', 'ultima_noticia_bot.tmp')
